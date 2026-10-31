@@ -567,7 +567,7 @@
       } else {
         message.innerHTML =
           "दु:खका बादलहरू हटेर सधैं सुखको घाम लागोस्",+
-"तिम्रो जीवनमा उमङ्गको नयाँ रङ्ग छाओस्।"
+"तिम्रो जीवनमा उमङ्गको नयाँ रङ्ग छाओस्।"+
 "हाँसिरहनु, बाँचिरहनु, यसरी नै रमाईरहनु,"+
 "प्रिय साथी, तिमीलाई जन्मदिनको लाखौँ लाख शुभकामना!! 💖";
 
@@ -612,7 +612,7 @@ function prevSlide() {
 
 function startCarousel() {
   clearInterval(carouselTimer);
-  carouselTimer = setInterval(nextSlide, 3000);
+  carouselTimer = setInterval(nextSlide, 1000);
 }
 
 nextBtn.addEventListener("click", () => {
